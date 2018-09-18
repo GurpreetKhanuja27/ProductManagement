@@ -6,5 +6,5 @@ import com.app.bean.Product;
 
 public interface ProductDAO {
 
-	public List<Product> listProducts();
+	public Set<Product> listProducts();
 }
